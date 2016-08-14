@@ -56,4 +56,4 @@ refineorig$product_TV <- as.factor(ifelse(refineorig$product_code == 'v', 1, 0))
 refineorig$product_Tablet <- as.factor(ifelse(refineorig$product_code == 'q', 1, 0))
 refineorig$product_Laptop <- as.factor(ifelse(refineorig$product_code == 'x', 1, 0))
 
-write.table(refineorig, "refine_clean.csv")
+write.table(refineorig, "refine_clean.csv", sep = ",")
